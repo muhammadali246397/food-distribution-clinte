@@ -8,8 +8,9 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url(./src/assets/banar.jpg)",
-        'footer-texture': "linear-gradient(#00000085, #00000085);",
-      }
+        'footer-texture': "linear-gradient(#101840ad, #101840ad);",
+      },
+      
     },
   },
 

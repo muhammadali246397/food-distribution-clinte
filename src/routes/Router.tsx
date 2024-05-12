@@ -4,6 +4,9 @@ import MainLayout from "../layout/MainLayout";
 import AllSupplies from "../pages/AllSupplies";
 import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
+import DashboardLayout from "../layout/dashboard/DashboardLayout";
+import AllSupply from "../pages/dashboard/AllSupply";
+import CreateSupply from "../pages/dashboard/CreateSupply";
 
 const Router = createBrowserRouter([
     {
@@ -22,9 +25,25 @@ const Router = createBrowserRouter([
                 path:'/login',
                 element:<Login />
             },
+
+        ]
+      
+    },
+    {
+        path:'/dashboard',
+        element:<DashboardLayout />,
+        children:[
             {
                 path:'/dashboard',
                 element:<Dashboard />
+            },
+            {
+                path:'/dashboard/allSupply',
+                element:<AllSupply />
+            },
+            {
+                path:'/dashboard/creatSupply',
+                element:<CreateSupply />
             }
         ]
     }
