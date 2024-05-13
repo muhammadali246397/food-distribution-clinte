@@ -1,4 +1,4 @@
-import { FaArrowAltCircleLeft, FaHome } from "react-icons/fa";
+import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { MdDashboard, MdPostAdd } from "react-icons/md";
 import { RiDatabaseFill } from "react-icons/ri";
 import { NavLink, Outlet } from "react-router-dom";

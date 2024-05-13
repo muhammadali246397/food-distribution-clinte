@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import donor from '../../assets/donor.jpg'
+import image from '../../assets/banar.jpg'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -36,7 +37,7 @@ const DonorTestimonials = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className="bg-hero-pattern w-full bg-cover">
+                    <div style={{backgroundImage:`url(${image})`}} className=" w-full bg-cover">
                         <div className='bg-footer-texture w-full '>
                             <div className='text-center md:w-1/2 mx-auto py-20'>
                                 <div className='w-40 h-40 mx-auto rounded-full mt-20 p-1 border'>
@@ -50,7 +51,7 @@ const DonorTestimonials = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="bg-hero-pattern w-full bg-cover">
+                    <div style={{backgroundImage:`url(${image})`}} className=" w-full bg-cover">
                         <div className='bg-footer-texture w-full '>
                             <div className='text-center md:w-1/2 mx-auto py-20'>
                                 <div className='w-40 h-40 mx-auto rounded-full mt-20 p-1 border'>
@@ -64,7 +65,7 @@ const DonorTestimonials = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="bg-hero-pattern w-full bg-cover">
+                    <div style={{backgroundImage:`url(${image})`}} className=" w-full bg-cover">
                         <div className='bg-footer-texture w-full '>
                             <div className='text-center md:w-1/2 mx-auto py-20'>
                                 <div className='w-40 h-40 mx-auto rounded-full mt-20 p-1 border'>
@@ -78,7 +79,7 @@ const DonorTestimonials = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="bg-hero-pattern w-full bg-cover">
+                    <div style={{backgroundImage:`url(${image})`}} className=" w-full bg-cover">
                         <div className='bg-footer-texture w-full '>
                             <div className='text-center md:w-1/2 mx-auto py-20'>
                                 <div className='w-40 h-40 mx-auto rounded-full mt-20 p-1 border'>
@@ -92,7 +93,7 @@ const DonorTestimonials = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="bg-hero-pattern w-full bg-cover">
+                    <div style={{backgroundImage:`url(${image})`}} className=" w-full bg-cover">
                         <div className='bg-footer-texture w-full '>
                             <div className='text-center md:w-1/2 mx-auto py-20'>
                                 <div className='w-40 h-40 mx-auto rounded-full mt-20 p-1 border'>
@@ -106,7 +107,7 @@ const DonorTestimonials = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="bg-hero-pattern w-full bg-cover">
+                    <div style={{backgroundImage:`url(${image})`}} className=" w-full bg-cover">
                         <div className='bg-footer-texture w-full '>
                             <div className='text-center md:w-1/2 mx-auto py-20'>
                                 <div className='w-40 h-40 mx-auto rounded-full mt-20 p-1 border'>

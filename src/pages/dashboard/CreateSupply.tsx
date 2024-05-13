@@ -12,7 +12,7 @@ const CreateSupply = () => {
     const {
         register,
         handleSubmit,
-        formState: { errors },
+        formState: {},
     } = useForm<Inputs>()
     const onSubmit: SubmitHandler<Inputs> = (data) => {
         console.log(data)
