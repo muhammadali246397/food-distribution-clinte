@@ -1,4 +1,7 @@
 import { useForm, SubmitHandler } from "react-hook-form"
+import { useAppDispatch } from "../../redux/hooks";
+import { createSullpy } from "../../redux/feature/Slice";
+import { useCreateSupplyMutation } from "../../redux/foodManagment/foodSupplyApi";
 
 type Inputs = {
     title: string;
@@ -9,13 +12,15 @@ type Inputs = {
 }
 
 const CreateSupply = () => {
+    const [createsuppl, {}] = useCreateSupplyMutation();
     const {
         register,
         handleSubmit,
         formState: {},
     } = useForm<Inputs>()
-    const onSubmit: SubmitHandler<Inputs> = (data) => {
-        console.log(data)
+    const onSubmit: SubmitHandler<Inputs> = (data:Inputs) => {
+        
+       createsuppl(data)
     }
     return (
         <div>
